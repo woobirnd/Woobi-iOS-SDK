@@ -1,0 +1,6 @@
+framework module Woobi {
+  umbrella header "Woobi.h"
+
+  export *
+  module * { export * }
+}
