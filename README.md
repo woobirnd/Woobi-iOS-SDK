@@ -9,7 +9,7 @@ Woobi programmatic branded video advertising SDK, enables games and entertainmen
 Woobi SDK allows publishers both non-precached and pre-cache videos ads providing an efficient and smooth user experience.
 
 ## Getting Started
-To get started with the iOS SDK, please follow this link [https://github.com/woobirnd/Woobi-iOS-SDK/wiki/Requesting-Non-Rewarded-Video).
+To get started with the iOS SDK, please follow this link [iOS Documentation](https://github.com/woobirnd/Woobi-iOS-SDK/wiki).
 
 ## Contact Us
 If you wish to integrate Woobi SDK into any commercial applications, please register an account and accept the T&C.
