@@ -1,5 +1,8 @@
 # Woobi-iOS-SDK
 
+
+SDK Version: 1.4.9
+
 Woobi programmatic branded video advertising SDK, enables games and entertainment publishers monetization opportunities with 2 major ad formats:
 
 1. Rewarded video ads [Rewarded documentation](https://github.com/woobirnd/Woobi-iOS-SDK/wiki/Requesting-Rewarded-video-Woobi-Vidget)
