@@ -124,14 +124,14 @@ typedef NS_ENUM(NSInteger, WoobiAnimationType)
 + (void) getAndShowVidgetWithViewController:(UIViewController*)parentViewController
                              andAppId:(NSString*)appId
                           andClientId:(NSString*)clientId
-                      andCustomParams:(NSString*)customParams
+                      andCustomParams:(NSDictionary*)customParams
                      andAnimationType:(WoobiAnimationType)animationType
                    andOrientationMode:(VideoOrientation)orientationMode;
 
 + (void) getVidgetWithViewController:(UIViewController*)parentViewController
                              andAppId:(NSString*)appId
                           andClientId:(NSString*)clientId
-                      andCustomParams:(NSString*)customParams
+                      andCustomParams:(NSDictionary*)customParams
                      andAnimationType:(WoobiAnimationType)animationType
                    andOrientationMode:(VideoOrientation)orientationMode;
 
@@ -141,14 +141,14 @@ typedef NS_ENUM(NSInteger, WoobiAnimationType)
 + (void) getAndShowWoobiNonIncentWithViewController:(UIViewController*)parentViewController
                                            andAppId:(NSString*)appId
                                         andClientId:(NSString*)clientId
-                                    andCustomParams:(NSString*)customParams
+                                    andCustomParams:(NSDictionary*)customParams
                                           andAdType:(WoobiAdType) adType
                                    andAnimationType:(WoobiAnimationType)animationType;
 
 + (void) getWoobiNonIncentWithViewController:(UIViewController*)parentViewController
                                            andAppId:(NSString*)appId
                                         andClientId:(NSString*)clientId
-                                    andCustomParams:(NSString*)customParams
+                                    andCustomParams:(NSDictionary*)customParams
                                           andAdType:(WoobiAdType) adType
                                    andAnimationType:(WoobiAnimationType)animationType;
 
@@ -162,6 +162,10 @@ typedef NS_ENUM(NSInteger, WoobiAnimationType)
  @param disable boolean value to set the state, default is false
  */
 + (void) disableExitDialogInVideos:(BOOL)disable;
+
++ (void) setGDPRState: (BOOL)isGDPR andConsent:(NSString*) consent;
++ (BOOL) getGDPRState;
++ (NSString*) getConsent;
 
 @end
 
